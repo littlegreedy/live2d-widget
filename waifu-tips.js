@@ -60,7 +60,7 @@ function loadWidget(waifuPath, apiPath) {
 			return "";
 		};
 		$(document).on("copy", () => {
-			showMessage("你都复制了些什么呀，转载要记得加上出处哦！", 6000, 9);
+			showMessage("你都复制了些什么呀，", 6000, 9);
 		});
 		$(document).on("visibilitychange", () => {
 			if (!document.hidden) showMessage("哇，你终于回来了～", 6000, 9);
